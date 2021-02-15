@@ -24,3 +24,35 @@ body>ul>li {
 h1 {
   margin: 10px;
 }
+
+body > form > p {
+  margin: 10px;
+  padding: 10px;
+}
+
+body > form > input {
+    padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+body > form > input[type=text]:nth-child(2) {
+  border: 2px solid #3498DC;
+}
+
+body > a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #3498DC;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+body > a:hover {
+  opacity: 1.0;
+}
